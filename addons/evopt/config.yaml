@@ -1,0 +1,22 @@
+name: EVopt
+version: "0.1.0"
+slug: evopt
+description: EV- & Batterie-Ladeoptimierer (andig/evopt) als HAOS Add-on
+url: https://github.com/andig/evopt
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+init: false
+
+# Weboberfläche/HTTP-API
+webui: http://[HOST]:[PORT:7050]/
+ports:
+  "7050/tcp": 7050
+
+# Konfigurierbare Optionen (falls du den Port ändern magst)
+options:
+  listen_port: 7050
+schema:
+  listen_port: int
