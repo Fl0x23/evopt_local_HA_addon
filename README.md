@@ -7,6 +7,7 @@ Selbst erstelltes Add-on zum Starten von evopt (https://github.com/andig/evopt).
 Hardware: Raspberry Pi oder Home Assistant Green.
 
 Don't just clone the repo Fl0x23/evopt_local_HA_addon !!
+
 Struktur anlegen (per SSH oder File Editor):
 
 ```
